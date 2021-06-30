@@ -1,0 +1,43 @@
+  
+{
+    "itinerary": {
+        "flights": [
+            {
+                "departureTime": "06:00",
+                "arrivalTime": "09:30",
+                "date": "Jul 7",
+                "origin": "SIN",
+                "destination": "DMK"
+            },
+            {
+                "departureTime": "18:35",
+                "arrivalTime": "22:05",
+                "date": "Jul 13",
+                "destination": "SIN",
+                "confirmation": "51949392",
+                "origin": "DMK"
+            }
+        ],
+        "accommodation": [
+            {
+                "startDate": "Jul 2",
+                "endDate": "Jul 9",
+                "checkInTime": "15:00",
+                "checkOutTime": "12:00",
+                "name": "Siri Sathorn Bangkok by UHG",
+                "address": "27 Si Lom, Bang Rak, Bangkok 10500, Thailand",
+                "phone": "+6622662345",
+                "confirmation": "a44m0N8u5"
+            }
+        ],
+        "restaurants": [
+            {
+                "time": "18:00",
+                "date": "Jul 8",
+                "name": "Aesop's Grill",
+                "address": "120 Sala Daeng 1/1, Silom, Bang Rak, Bangkok 10500, Thailand",
+                "confirmation": "99900022"
+            }
+        ]
+    }
+}
