@@ -1,1 +1,0 @@
-# block-sized-block-guide

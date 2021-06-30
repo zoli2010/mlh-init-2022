@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Weiyi Ma">
+    <meta name="description" content="A educative webpage designed to teach people the basics of MongoDB. This was created for MLH INIT 2022.">
+    <meta name="keywords" content="MongoDB, programming, MLH, INIT 2022, tutorial">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+    <title>A Mini MongoDB Tutorial</title>
+</head>
+<body>
+    <header>
+        <br id="home"><br>
+        <h1>A Leaf-Sized, Mini MongoDB Website</h1>
+        <br><br>
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" style="height: 300px;" class="img-center">
+        <br><br>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li style="float: right"><a href="#gettingstarted">Getting Started</a></li>
+                <li style="float: right"><a href="#installation">Installation</a></li>
+                <li style="float: right"><a href="#introduction">Introduction</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="introduction-section">
+        <br id="introduction"><br><br>
+        <h1>Introduction</h1>
+        <br>
+        <p>MongoDB (https://www.mongodb.com) is a document database, meaning that it stores data in JSON-like documents. It's a source-available cross-platform document-oriented database program, and it is one of the most popular NoSQL databases.</p>
+        <p>"MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era. No database makes you more productive."</p>
+        <p>MongoDB is developed MongoDB Inc. and was initially released on February 11, 2009. The latest stable release (as of 29th June) is 4.4.5, and it was released on 8 April 2021. MongoDB is written in C++, JavaScript, and Python, and its Github repository can be found <a href="https://github.com/mongodb/mongo">here.</a></p>
+        <br><br><br>
+    </section>
+    <section class="installation-section">
+        <br id="installation"><br><br>
+        <h1>Installation</h1>
+        <br>
+        <p>In order to install MongoDB, simply go to https://www.mongodb.com/.</p>
+        <p>There, use the navigation bar to hover over on "Software" and click on "Community Server". You can then press the "Download" button in order to download the MongoDB package.</p>
+        <p>The "bin" sub-directory contains all the executables and tools:</p>
+        <ul>
+            <li><code>mongod</code>: for starting a MongoDB server (with suffix 'd' for daemon or server)</li>
+            <li><code>mongo</code>: for starting a command-line client</li>
+            <li><code>mongoimport, monoexport, mongodump, mongorestore</code></li>
+        </ul>
+        <br><br><br>
+    </section>
+    <section class="gettingstarted-section">
+        <br id="gettingstarted"><br><br>
+        <h1>Getting Started</h1>
+        <br>
+        <p>To get started, create a data directory for Mongo, such as "<code>c:/mongo/data</code>".</p>
+        <p>Start a CMD/Terminal/Shell. Launch the MongoDB server by running "<code>mongod.exe</code>", where the suffix "d" denotes <em>daemon</em> (i.e. server). Observe the console message:</p>
+        <p><pre><code>mongod --dbpath "c:/mongo/data"
+......                         
+2020-03-06T23:24:13.298-0700 I NETWORK [listener] Listening on 127.0.0.1
+2020-03-06T23:24:13.300-0700 I NETWORK [listener] waiting for connections on port 27017
+......</code></pre></p>
+        <p>Start "another" CMD/Terminal/Shell. Launch the command line client by running "<code>mongo.exe</code>" (without the suffix 'd' for cilent).</p>
+        <p><pre><code>mongo
+MongoDB shell version v4.2.3
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+.......
+>help
+show dbs | show database names
+show collections | show collections in current databases
+show users | show users in current database
+show profile | show most recent system.profile entries with time >= 1ms
+show logs | show the accessible logger names
+show log [name] | prints out the last segment of log in memory, 'global' is default
+use &lt;db_name&gt; | set current database
+db.foo.find() | list objects in collection foo
+db.foo.find( { a : 1 } ) | list objects in foo where a == 1
+it | result of the last line evaluated; use to further iterate
+DBQuery.shellBatchSize = x | set default number of items to display on shell
+exit | quit the mongo shell
+&nbsp;
+// show databases
+&gt; show dbs
+admin | 0.000GB
+config | 0.000GB
+local | 0.000GB
+&nbsp;
+// show collections (documents)
+&gt; show collections
+&nbsp;
+// Create a database called "coffeeshopdb"
+// Database will be created when you create the first collection
+&gt; use coffeeshopdb
+switched to db coffeeshopdb
+&nbsp;
+// Create a collection (document)
+&gt; db.createCollection("beverage")
+{ "ok" : 1 }
+&nbsp;
+&gt; show dbs
+admin | 0.000GB
+coffeeshopdb | 0.000GB
+config | 0.000GB
+local | 0.000GB
+&gt; show collections
+beverage
+&nbsp;
+// Insert one row
+&gt; db.beverage.insert({ id: 1, name: 'Espresso', price: 5.5 })
+WriteResult({ "nInserted" : 1 })
+&nbsp;
+// Insert multiple rows as an array
+&gt; db.beverage.insert([
+    { id: 2, name: 'Cappuccino', price: 5.6 },
+    { id: 3, name: 'Latte', price: 5.7 }
+])
+BulkWriteResult({
+    "writeErrors" : [ ],
+    "writeConcernErrors" : [ ],
+    "nInserted" : 2,
+    "nUpserted" : 0,
+    "nMatched" : 0,
+    "nModified" : 0,
+    "nRemoved" : 0,
+    "upserted" : [ ]
+})
+&nbsp;
+// Query (or Find)
+> db.beverage.find().pretty()
+{
+  "_id" : ObjectId("5e63453cd24e043c085e1014"),
+  "id" : 1,
+  "name" : "Espresso",
+  "price" : 5.5
+}
+{
+  "_id" : ObjectId("5e63461cd24e043c085e1015"),
+  "id" : 2,
+  "name" : "Cappuccino",
+  "price" : 5.6
+}
+{
+  "_id" : ObjectId("5e63461cd24e043c085e1016"),
+  "id" : 3,
+  "name" : "Latte",
+  "price" : 5.7
+}
+&nbsp;
+// Find with filter
+> db.beverage.find({ id : 3 }).pretty()
+{
+  "_id" : ObjectId("5e63461cd24e043c085e1016"),
+  "id" : 3,
+  "name" : "Latte",
+  "price" : 5.7
+}
+&nbsp;
+// Update with $set
+> db.beverage.update({ name: 'Latte' }, { $set: { name: 'Latte New' }})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.beverage.find({ id: 3 } ).pretty()
+{
+  "_id" : ObjectId("5e63461cd24e043c085e1016"),
+  "id" : 3,
+  "name" : "Latte New",
+  "price" : 5.7
+}
+&nbsp;
+// Update with $inc
+> db.beverage.update({ name: 'Latte New' }, { $inc: { price: -1.1 } })
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.beverage.find({ id: 3 }).pretty()
+{
+  "_id" : ObjectId("5e63461cd24e043c085e1016"),
+  "id" : 3,
+  "name" : "Latte New",
+  "price" : 4.6
+}
+&nbsp;
+// Update with $mul
+> db.beverage.update({ name: { $in: ['Espresso', 'Cappuccino'] } }, { $mul: { price: 1.2 }})
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.beverage.find({ id: { $in: [1, 2] } }).pretty()
+{
+  "_id" : ObjectId("5e63453cd24e043c085e1014"),
+  "id" : 1,
+  "name" : "Espresso",
+  "price" : 6.6
+}
+{
+  "_id" : ObjectId("5e63461cd24e043c085e1015"),
+  "id" : 2,
+  "name" : "Cappuccino",
+  "price" : 5.6
+}
+&nbsp;
+&gt; exit
+bye
+        </code></pre></p>
+        <br><br><br>
+    </section>
+</body>
+</html>

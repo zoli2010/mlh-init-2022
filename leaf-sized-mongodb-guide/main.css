@@ -8,10 +8,6 @@ body {
     padding: 0;
 }
 
-h1 {
-    font-size: 48px;
-}
-
 h1,
 h2,
 h3,
@@ -19,6 +15,7 @@ h4,
 h5, 
 h6 {
     font-family: 'Lato', 'Roboto', sans-serif;
+    font-size: 48px;
     text-align: center;
 }
 
@@ -40,13 +37,13 @@ pre {
 header {
     margin: 0;
     width: 100%;
-    background-color: #fae96b;
-    color: black;
+    background-color: #4db33d;
+    color: white;
 }
 
 header h1 {
     margin: 0;
-    color: black;
+    color: #3f3e42;
     font-family: 'Lato', 'Roboto', sans-serif;
 }
 
