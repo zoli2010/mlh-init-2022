@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Weiyi Ma">
+    <meta name="description" content="A educbative webpage designed to inform people about what blockchain technology is. This was created for MLH INIT 2022.">
+    <meta name="keywords" content="blockchain, tutorial, MLH INIT 2022, github, bitcoin">
+    <link rel="stylesheet" href="main.css">
+    <title>A Block-Sized, Block Guide</title>
+</head>
+<body>
+    <header>
+        <br id="home"><br>
+        <h1>A Block-Sized, Block Guide</h1>
+        <br><br>
+        <img src="https://bsvdevcon.net/static/icon-blockchain.svg" alt="MongoDB" style="height: 300px;" class="img-center">
+        <br><br>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li style="float: right"><a href="#versions">Versions</a></li>
+                <li style="float: right"><a href="#transaction">Transactions</a></li>
+                <li style="float: right"><a href="#architecture">Architecture</a></li>
+                <li style="float: right"><a href="#introduction">Introduction</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="introduction-section">
+        <br id="introduction"><br><br>
+        <h1>Introduction</h1>
+        <h2>What is Blockchain?</h2>
+        <br>
+        <p><strong>Blockchain</strong>, simply put, is a chain of blocks that contains information. Blockchain can be used to make sure that digital documents are not tampered with (e.g. backdating) by giving the digital documents a timestamp. Blockchain is used to fix the double records problem without the need of a central server.</p>
+        <p>Blockchain, or the chain of blocks, is usually used for the transactions of personal items such as currency, property, contracts, and more. What makes blockchain so useful is that these transactions do not require a bank or a government. Moreover, recorded data can be very difficult to change.</p>
+        <p>Just like other technologies, blockchain is a software protocol, and it cannot be run without the usage of the Internet.</p>
+        <br>
+        <h2>Why do we need Blockchain?</h2>
+        <br>
+        <p>Some reasons why Blockchain technology have become so popular include resilience, time reduction, reliability, unchangeable transactions, fraud prevention, security, transparency, collaboration, and decentralization.</p>
+        <ul>
+            <li><strong>Resilence:</strong> Blockchains is often replicated architecture. The chain is still operated by most nodes in the event of a massive attack against the system.</li>
+            <li><strong>Time reduction:</strong> In the financial industry, blockchain can play a vital role by allowing the quicker settlement of trades as it does not need a lengthy process of verification, settlement, and clearance because a single version of agreed-upon data of the share ledger is available between all stack holders.</li>
+            <li><strong>Reliability:</strong> Blockchain certifies and verifies the identities of the interested parties. This removes double records, reducing rates and accelerates transactions.</li>
+            <li><strong>Unchangeable transactions:</strong> By registering transactions in chronological order, Blockchain certifies the unalterability, of all operations which means when any new block has been added to the chain of ledgers, it cannot be removed or modified.</li>
+            <li><strong>Fraud prevention:</strong> The concepts of shared information and consensus prevent possible losses due to fraud or embezzlement. In logistics-based industries, blockchain as a monitoring mechanism act to reduce costs.</li>
+            <li><strong>Security:</strong> Attacking a traditional database is the bringing down of a specific target. With the help of Distributed Ledger Technology, each party holds a copy of the original chain, so the system remains operative, even the large number of other nodes fall.</li>
+            <li><strong>Transparency:</strong> Changes to public blockchains are publicly viewable to everyone. This offers greater transparency, and all transactions are immutable.</li>
+            <li><strong>Collaboration:</strong> Allows parties to transact directly with each other without the need for mediating third parties.</li>
+            <li><strong>Decentralization:</strong> There are standards rules on how every node exchanges the blockchain information. This method ensures that all transactions are validated, and all valid transactions are added one by one.</li>
+        </ul>
+        <br>
+        <h2>Misconceptions</h2>
+        <br>
+        <p>When talking about Blockchain technology, there are several misconceptions and mistakes that one can make.</p>
+        <p>For one, many people seem to think that Bitcoin is Blockchain. This is not true, as Blockchain is not actually Bitcoin. Rather, Blockchain is the technology <strong>behind</strong> Bitcoin. Bitcoin is known as a cryptocurrency, and Blockchain acts as a collection of financial accounts that tracks who owns what. Simply put, you can have Blockchain without Bitcoin, but you can't have Bitcoin without Blockchain.</p>
+    </section>
+    <section class="architecture-section">
+        <br id="architecture"><br><br>
+        <h1>Architecture</h1>
+        <h2>What exactly is a block?</h2>
+        <p>As mentioned in the previous section, blockchain can be defined as a chain of blocks. In blockchain, a block is a information container. Blocks can store different kinds of information based on what type of block they are.</p>
+        <p>In every "chain" of blocks, the first block in the chain is known as the "Genesis" block.</p>
+        <br>
+        <h2>Hashes</h2>
+        <br>
+        <p>Each block has a hash. A hash is basically a string that has gone through a hashing algorithm, and is typically used for cryptography. One can think of a hash as a fingerprint or DNA: it identifies a person and it is never the same.</p>
+        <p>Hashes are useful when detecting changes to intersections. When a block is changed, the hash will change.</p>
+        <p>Each block contains data, a hash, and the hash of the previous block. In the previous section, we mentioned how blocks are difficult to change. The reason for this is because when changing a block (for instance, Block A), the hash of Block A will change, but Block A's hash stored in the next block (Block B) will not change. As such, the hash in Block A will not match the previous hash in Block B, thus invalidating the succeeding blocks.</p>
+        <br>
+        <h2>Proof of Work</h2>
+        <br>
+        <p>Although hashes are an excellent mechanism in cryptography to prevent attacks, modern computers are extremely advanced and are able to generate hundreds of thousands of hashes every second. Using this technology, an attacker can easily change the data of a block, and then re-generate all the hashes of the other blocks to make the blockchain valid again.</p>
+        <p>To resolve this problem, blockchain technology utilises a concept called "Proof of Work". This useful concept efficiently slows down the creation of new blocks, which prevents attackers from revalidating blockchains.</p>
+        <p>A proof of work is a computational problem that takes effort to solve. However, the time required to verify the results of the proof of work is lesser as compared to the efofrt it takes to solve the proof of work itself. For instance, a Bitcoin block takes almost 10 minutes to calculate the proof of work and add a new block to the chain.</p>
+        <br>
+        <h2>Distributed P2P Network</h2>
+        <br>
+        <p>There are more methods in which blockchains can be safely secured. One of them is distributed P2P network.</p>
+        <p>Instead of using a central entity to manage the blockchain, it uses the distributed network, and everyone is allowed to join. When someone enters the P2P network, they will receive the entire copy of the blockchain. Each computer is also known as a "node".</p>
+        <p>When a user creates a new block, the aforementioned block is sent to all users on the P2P network. Each node needs to verify the block to make sure that it has not been maliciously altered. After a complete round of verification, each node will add the block to their blockchain.</p>
+        <p>A "consensus" is formed by all the nodes in a network. The nodes agree about what blocks are valid, and what blocks are invalid. Nodes in the network will reject blocks that are invalid and tampered with.</p>
+        <br>
+        <h2>How to Successfully Tamper with a Blockchain</h2>
+        <br>
+        <p>With all the security measures above, there are 3 steps to hypothetically tamper with a blockchain:</p>
+        <ul>
+            <li>Tamper will all the blocks on the chain</li>
+            <li>Redo the proof-of-work for each block</li>
+            <li>Take control of greater than 50% of the P2P network</li>
+        </ul>
+        <p>Although these 3 steps may look and sound very simple, these steps are nearly impossible to achieve.</p>
+    </section>
+    <section class="transaction-section">
+        <br id="transaction"><br><br>
+        <h1>Transactions</h1>
+        <h2>How does a blockchain transaction work?</h2>
+        <p>A blockchain transaction process can be simplified into 4 processes: transaction request, transaction broadcast, transaction validation, and blockchain addition.</p>
+        <p>A transaction request is made when, well, when a person requests a transaction. The transaction could be involved with cryptocurrency, contracts, records, etc.</p>
+        <p>The requested transaction is then broadcasted to a distributed P2P network.</p>
+        <p>With the help of nodes and algorithms, the transaction and the user is validated.</p>
+        <p>Once the transaction has been successfully validated, the new block is then securely added to the existing blockchain.</p>
+    </section>
+    <section class="versions-section">
+        <br id="versions"><br><br>
+        <h1>Versions</h1>
+        <h2>Blockchain 1.0: Currency</h2>
+        <p>The implementation of DLT (distributed ledger technology) led to its first and obvious application: cryptocurrencies. This allows financial transactions based on blockchain technology. It is used in currency and payments. Bitcoin is the most prominent example in this segment.</p>
+        <br>
+        <h2>Blockchain 2.0: Smart contracts</h2>
+        <br>
+        <p>The new key concepts are Smart Contracts, small computer programs that "live" in the blockchain. They are free computer programs that execute automatically, and check conditions defined earlier like facilitation, verification or enforcement. It is used as a replacement for traditional contracts.</p>
+        <br>
+        <h2>Blockchain 3.0: DApps</h2>
+        <br>
+        <p>DApps is an abbreviation of decentralized application. It has their backend code running on a decentralized peer-to-peer network. A DApp can have frontend Blockchain example code and user interfaces written in any language that can make a call to its backend, like a traditional Apps.</p>
+        <br><br><br>
+    </section>
+</body>
+</html>
