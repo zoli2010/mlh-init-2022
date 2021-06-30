@@ -1,0 +1,33 @@
+{
+  "name": "discordjs-starter-kit",
+  "version": "1.0.0",
+  "description": "A starter kit written in discord.js for those looking to quickstart their journey in creating Discord bots.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiyi-m/discordjs-starter-kit.git"
+  },
+  "keywords": [
+    "mlh",
+    "major",
+    "league",
+    "hacking",
+    "init",
+    "discord",
+    "discord.js",
+    "bot",
+    "tutorial",
+    "starter",
+    "kit",
+    "beginner"
+  ],
+  "author": "foop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weiyi-m/discordjs-starter-kit/issues"
+  },
+  "homepage": "https://github.com/weiyi-m/discordjs-starter-kit#readme"
+}
