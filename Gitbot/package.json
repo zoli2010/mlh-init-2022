@@ -1,0 +1,29 @@
+{
+  "name": "gitbot",
+  "version": "0.1.0-alpha.0",
+  "description": "A Discord bot that provides you with information about Github repositories and users, all within the comfort of your Discord server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "git help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiyi-m/gitbot.git"
+  },
+  "keywords": [
+    "github",
+    "gitbot",
+    "discord",
+    "api",
+    "mlh",
+    "mlh",
+    "init",
+    "bot"
+  ],
+  "author": "foop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weiyi-m/gitbot/issues"
+  },
+  "homepage": "https://github.com/weiyi-m/gitbot#readme"
+}
