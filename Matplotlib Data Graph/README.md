@@ -19,4 +19,5 @@ More features, more redesigns, more functions.
 
 ## Links
 [YouTube Video Demonstration](https://youtu.be/86MPgaCW7LM)
+
 [Google Colab](https://tinyurl.com/init22datavis)
