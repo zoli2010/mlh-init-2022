@@ -1,0 +1,31 @@
+{
+  "name": "replit-hosted-bot",
+  "version": "1.0.0",
+  "description": "A Replit-hosted Discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "!ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiyi-m/mlh-init-2022.git#main"
+  },
+  "keywords": [
+    "replit",
+    "discord",
+    "bot",
+    "mlh",
+    "init",
+    "2022"
+  ],
+  "author": "foop",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/weiyi-m/mlh-init-2022/issues"
+  },
+  "homepage": "https://github.com/weiyi-m/mlh-init-2022/tree/main#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1"
+  }
+}
