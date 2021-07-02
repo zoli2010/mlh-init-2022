@@ -28,14 +28,6 @@ def readPass():
     file.close()
     print(content)
 
-def checkFile():
-    if os.path.exists("info.txt"):
-        pass
-
-    else:
-        file = open("info.txt", 'w')
-        file.close()
-
 print("Welcome to Manageword, the password manager right in your terminal.\n")
 print("1. Print passwords\n2. Add new password")
 choice = input("Input your choice (enter the number): ")
