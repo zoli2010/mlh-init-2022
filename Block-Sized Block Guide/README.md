@@ -2,6 +2,13 @@
 
 This small blockchain guide was created as a project for [MLH INIT 2022](https://init.mlh.io): Day 3.
 
+## Inspiration
+"What the hell is blockchain?"
+
+These are words that you most likely have uttered in the past couple years, after the explosion of cryptocurrencies such as Bitcoin, Ethereum and Dogecoin took place. To many, blockchain is a strange, otherworldly concept that they'll definitely won't grasp anytime soon.
+
+But the thing is that blockchain isn't complicated at all. The Block-Sized Block Guide aims to provide you with some beginner information as to what this mysterious thing is.
+
 ## What it does
 The Block-Sized Block Guide is a beginner's guide to what blockchain is, why we use blockchain, and how blockchain even works. Confused about what the difference between blockchain and bitcoin is? Never fret, for the webpage clearly explains what the difference between those two is, as well as more important concepts concerning blockchain.
 
