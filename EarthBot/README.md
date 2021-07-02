@@ -1,3 +1,5 @@
+# EarthBot
+
 ## Inspiration
 As each day progresses, the Earth is slowly deteriorating. Pollution everywhere, extinct animals and endangered species, and the shortage of natural resources like water and energy are not looking too good for the human species. However, it's not too late, because by practising some environmental tips, we can save the earth.
 
