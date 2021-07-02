@@ -1,0 +1,27 @@
+{
+  "name": "twitch-follower-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that prints a message in a channel whenever a person follows your channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weiyi-m/mlh-init-2022.git#main"
+  },
+  "keywords": [
+    "twitch",
+    "discord",
+    "bot",
+    "mlh",
+    "init",
+    "2022"
+  ],
+  "author": "foop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weiyi-m/mlh-init-2022/issues"
+  },
+  "homepage": "https://github.com/weiyi-m/mlh-init-2022/tree/main#readme"
+}

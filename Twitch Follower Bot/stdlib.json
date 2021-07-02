@@ -1,0 +1,16 @@
+{
+    "name": "foop/twitch-follower-bot",
+    "timeout": 10000,
+    "connector": false,
+    "events": {
+      "functions/events/twitch/me/channel/follow.js": {
+        "name": "twitch.me.channel.follow"
+      }
+    },
+    "env": [
+      {
+        "name": "CHANNEL_ID",
+        "description": "Discord channel ID to recieve alerts in"
+      }
+    ]
+  }
