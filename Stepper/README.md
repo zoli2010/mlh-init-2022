@@ -1,7 +1,5 @@
 # Stepper
 
-This fitness step tracker app was created as a project for [MLH INIT 2022](https://init.mlh.io): Day 2.
-
 ## Inspiration
 Fitness tracker apps nowadays are too complicated. There are a million buttons on a million pages, and a million features on a million apps with millions of million-dollar companies run by millionaires milling a million developers whilst making millions. Instead of all that nonsense, Stepper provides you with a minimalistic style (some say it's _too_ minimalistic). Just a big, grey label called "Steps", along with a number that displays your hard-earned, gruellingly-painstaking steps that you take everyday.
 
