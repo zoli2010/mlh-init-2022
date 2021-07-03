@@ -1,7 +1,5 @@
 # block-sized-block-guide
 
-This small blockchain guide was created as a project for [MLH INIT 2022](https://init.mlh.io): Day 3.
-
 ## Inspiration
 "What the hell is blockchain?"
 
