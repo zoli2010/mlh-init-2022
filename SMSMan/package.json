@@ -1,0 +1,15 @@
+{
+  "name": "smsman",
+  "version": "1.0.0",
+  "description": "A Twilio-based text game that uses SMS to play Hangman.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "foop",
+  "license": "MIT",
+  "dependencies": {
+    "express-generator": "^4.16.1",
+    "twilio-cli": "^2.25.0"
+  }
+}
