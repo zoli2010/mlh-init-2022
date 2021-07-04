@@ -1,7 +1,5 @@
 # turtle-pong
 
-This simple pong game was created for [MLH INIT 2022](https://init.mlh.io): Day 1.
-
 ## Inspiration
 This game was inspired by Atari's Pong, developed by Allan Alcorn. According to the Wikipedia page for Pong, it is a "table tennis-themed arcade sports video game, featuring simple two-dimensional graphics." Pong was released in 1972, and contained two controllable balls and a fast-moving ball.
 
