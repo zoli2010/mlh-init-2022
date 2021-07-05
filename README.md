@@ -1,4 +1,4 @@
-<h1 align="center"> MLH INIT 2022 </h1>
+<h1 align="center"><a href="https://init.mlh.io/"> MLH INIT 2022 </a></h1>
 
 <p align="center">
     <img src="https://uploads-ssl.webflow.com/60a679e14d650f78433d8a27/60d3a50667d1cdabe2eb9c81_wallpaper_16-9.png">
