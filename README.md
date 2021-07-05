@@ -10,7 +10,7 @@ As of July 5th, 2am UTC, I am ranked 29th on the INIT Leaderboards under the ali
 
 ## INIT 2022: Day 8
 
-As of the time of writing this, there are 5 hours left until the Devpost submissions page closes for both the MLH weekly challenges and the MLH weekend challenges. I've basically completed everything there is to complete as this point (except for Jina's search hack, because my installations and dependencies are pretty broken so I can't exactly create a hack for that), and I'm writing this just to say how wonderful INIT 2022 has been.
+At of the time of writing this, there are 5 hours left until the Devpost submissions page closes for both the MLH weekly challenges and the MLH weekend challenges. I've basically completed everything there is to complete as this point (except for Jina's search hack, because my installations and dependencies are pretty broken so I can't exactly create a hack for that), and I'm writing this just to say how wonderful INIT 2022 has been.
 
 I have been a long-time member of MLH, and I have participated in many hackathons. However, I have only participated in hackathons for the stickers and swag, meaning that I've never actually actively participated and coded with MLH. In fact, the past week was the first time I even sent a message in the MLH Discord server. 
 
