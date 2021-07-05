@@ -8,7 +8,7 @@ This Github repository contains (almost) all of the projects that I have submitt
 
 As of July 5th, 2am UTC, I am ranked 29th on the INIT Leaderboards under the alias "foop", with a total of 167 points worth challenge submissions and event check-ins. I am a member of BLAHAJGang 🍉🦈, an extremely supportive and hyped-up guild within MLH.
 
-## MLH: Day 8
+## INIT 2022: Day 8
 
 As of the time of writing this, there are 5 hours left until the Devpost submissions page closes for both the MLH weekly challenges and the MLH weekend challenges. I've basically completed everything there is to complete as this point (except for Jina's search hack, because my installations and dependencies are pretty broken so I can't exactly create a hack for that), and I'm writing this just to say how wonderful INIT 2022 has been.
 
