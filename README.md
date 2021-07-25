@@ -6,7 +6,7 @@
 
 This Github repository contains (almost) all of the projects that I have submitted for [MLH INIT 2022](https://init.mlh.io/). This collection contains 39 projects (which are admittedly low-effort, due to the time constraints), all initially created from 27th June to 5th July.
 
-As of July 5th, 2am UTC, I am ranked 29th on the INIT Leaderboards under the alias "foop", with a total of 167 points worth challenge submissions and event check-ins. I am a member of BLAHAJGang 🍉🦈, an extremely supportive and hyped-up guild within MLH.
+As of the end of INIT 2022, I am ranked 23th on the INIT Leaderboards under the alias "foop", with a total of 186 points worth challenge submissions and event check-ins. I am a member of BLAHAJGang 🍉🦈, an extremely supportive and hyped-up guild within MLH.
 
 ## INIT 2022: Day 8
 
@@ -18,4 +18,3 @@ MLH INIT 2022 was the first official event that I actively participated in. In 7
 
 All in all, MLH INIT 2022 was one of the best code-related events that I have participated in within my 14 years of life experience. It has inspired me to genuinely participate in future hackathons and events, as well as motivated me to do my best for my future self. This event has re-sparked my interest for coding, and it has brought me to meet new, like-minded individuals who share the same interests as me.
 
-I am planning to update this README and create a postmortem after the closing ceremony, as well as include relevant information about the projects within this repository. But that's for another time.
